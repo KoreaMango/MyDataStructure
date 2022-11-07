@@ -11,6 +11,7 @@
 		0431941B2917B40600B807CA /* MyDataStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043194102917B40600B807CA /* MyDataStructure.framework */; };
 		043194202917B40600B807CA /* MyDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431941F2917B40600B807CA /* MyDataStructureTests.swift */; };
 		043194212917B40600B807CA /* MyDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 043194132917B40600B807CA /* MyDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043194332917BD9400B807CA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043194322917BD9400B807CA /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		043194142917B40600B807CA /* MyDataStructure.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyDataStructure.docc; sourceTree = "<group>"; };
 		0431941A2917B40600B807CA /* MyDataStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDataStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431941F2917B40600B807CA /* MyDataStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataStructureTests.swift; sourceTree = "<group>"; };
+		043194322917BD9400B807CA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		043194122917B40600B807CA /* MyDataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				043194322917BD9400B807CA /* Queue.swift */,
 				043194132917B40600B807CA /* MyDataStructure.h */,
 				043194142917B40600B807CA /* MyDataStructure.docc */,
 			);
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043194152917B40600B807CA /* MyDataStructure.docc in Sources */,
+				043194332917BD9400B807CA /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		043194282917B40600B807CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TDUR55YWW6;
@@ -412,6 +417,7 @@
 		043194292917B40600B807CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TDUR55YWW6;
