@@ -31,6 +31,7 @@
 		0431941A2917B40600B807CA /* MyDataStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDataStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431941F2917B40600B807CA /* MyDataStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataStructureTests.swift; sourceTree = "<group>"; };
 		043194322917BD9400B807CA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		048619912920F4B1009DA94F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		043194122917B40600B807CA /* MyDataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				048619912920F4B1009DA94F /* README.md */,
 				043194322917BD9400B807CA /* Queue.swift */,
 				043194132917B40600B807CA /* MyDataStructure.h */,
 				043194142917B40600B807CA /* MyDataStructure.docc */,
